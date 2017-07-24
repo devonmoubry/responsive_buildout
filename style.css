@@ -46,7 +46,7 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
@@ -75,4 +75,43 @@ header{
 
 #main_nav a:hover{
     background: #ddddff;
+}
+
+#logo {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#main_content {
+  background-color: #ddffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#sidebar_content div {
+  background-color: #ffffdd;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#site_footer {
+  background-color: #ffddaa;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#site_footer a {
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 1100px) {
+
 }
